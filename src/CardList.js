@@ -10,7 +10,7 @@ const CardList = ({ restaurants }) => {
 					<Card 
 						id={restaurants[i].id} 
 						name={restaurants[i].name} 
-						cost={restaurants[i].cost}
+						Cost={restaurants[i].Cost}
 						Description = {restaurants[i].Description}/>
 				);
 			})
