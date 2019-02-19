@@ -30,6 +30,7 @@ class App extends React.Component {
 		<div className = 'tc'>
 			<h1 className = 'f1'> SAS Austin Food List</h1>
 			<SearchBox searchChange={this.onSearchChange}/>
+			<h2 className = 'intro'> Enter Cost Key ($$$) and a Welcome Message </h2>
 			<Scroll>
 				<CardList restaurants={filteredRestaurants}/>
 			</Scroll>

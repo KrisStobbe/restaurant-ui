@@ -7,8 +7,7 @@ const Card = (props) => {
 	const {name, Cost, Description } = props;
 	return ( 
 	<div className = 'tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
-		{/* Image for each Restaurant that I use */}
-		<img alt = 'Food' src = {one} />
+		<img alt = 'Food' src = {one} /> {/* Image for each Restaurant that I use */}
 			<div>
 				<h2>{name}</h2>
 				<h3>Cost: {Cost}</h3>

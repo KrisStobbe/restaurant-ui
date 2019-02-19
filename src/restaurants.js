@@ -9,28 +9,28 @@ export const restaurants = [
   {
     id: 2,
     name: 'Restaurant 2',
-    Cost: '$$$',
+    Cost: '$$',
     user: '2',
     Description: 'Fun place'
   },
   {
     id: 3,
     name: 'Restaurant 3',
-    Cost: '$$$',
+    Cost: '$',
     user: '3',
     Description: 'Fun place'
   },
   {
     id: 4,
     name: 'Restaurant 4',
-    Cost: '$$$',
+    Cost: '$$',
     user: '4',
     Description: 'Fun place'
   },
   {
     id: 5,
     name: 'Restaurant 5',
-    Cost: '$$$',
+    Cost: '$',
     user: '5',
     Description: 'Fun place'
   },
@@ -44,7 +44,7 @@ export const restaurants = [
   {
     id: 7,
     name: 'Restaurant 7',
-    Cost: '$$$',
+    Cost: '$',
     user: '7',
     Description: 'Fun place'
   },
@@ -58,14 +58,14 @@ export const restaurants = [
   {
     id: 9,
     name: 'Restaurant 9',
-    Cost: '$$$',
+    Cost: '$$',
     user: '9',
     Description: 'Fun place'
   },
   {
     id: 10,
     name: 'Restaurant 10',
-    Cost: '$$$',
+    Cost: '$',
     user: '10',
     Description: 'Fun place'
   }

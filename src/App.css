@@ -1,3 +1,4 @@
+/*Importing Font*/
 @font-face {
 font-family: 'SEGA LOGO FONT';
 font-style: normal;
@@ -5,16 +6,27 @@ font-weight: normal;
 src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
 }
 
+/*Class for main header (SAS AUSTIN FOOD LIST)*/
 h1 {
 	font-family: 'SEGA LOGO FONT';
 	color: #0ccac4;
 	font-weight: 200;
 }
 
+/*Class for loading screen*/
 .Load{
 	position: fixed;
 	top: 50;
 	left: 50%;
 	margin-top: -50px;
 	margin-left: -100px;
+}
+
+/*Class for the Intro Message */
+.intro{
+	color: white;
+	text-align: center;
+	padding: 30px;
+	border-style: solid black;
+	margin: 5px;
 }
