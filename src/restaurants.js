@@ -1,62 +1,72 @@
 export const restaurants = [
   {
     id: 1,
-    name: 'Restaurant 1asdasd',
-    username: 'Bret',
-    email: 'Sincere@april.biz'
+    name: 'Restaurant 1',
+    Cost: '$$$',
+    user: '1',
+    Description: 'Fun place'
   },
   {
     id: 2,
-    name: 'Ervin Howell',
-    username: 'Antonette',
-    email: 'Shanna@melissa.tv'
+    name: 'Restaurant 2',
+    Cost: '$$$',
+    user: '2',
+    Description: 'Fun place'
   },
   {
     id: 3,
-    name: 'Clementine Bauch',
-    username: 'Samantha',
-    email: 'Nathan@yesenia.net'
+    name: 'Restaurant 3',
+    Cost: '$$$',
+    user: '3',
+    Description: 'Fun place'
   },
   {
     id: 4,
-    name: 'Patricia Lebsack',
-    username: 'Karianne',
-    email: 'Julianne.OConner@kory.org'
+    name: 'Restaurant 4',
+    Cost: '$$$',
+    user: '4',
+    Description: 'Fun place'
   },
   {
     id: 5,
-    name: 'Chelsey Dietrich',
-    username: 'Kamren',
-    email: 'Lucio_Hettinger@annie.ca'
+    name: 'Restaurant 5',
+    Cost: '$$$',
+    user: '5',
+    Description: 'Fun place'
   },
   {
     id: 6,
-    name: 'Mrs. Dennis Schulist',
-    username: 'Leopoldo_Corkery',
-    email: 'Karley_Dach@jasper.info'
+    name: 'Restaurant 6',
+    Cost: '$$$',
+    user: '6',
+    Description: 'Fun place'
   },
   {
     id: 7,
-    name: 'Kurtis Weissnat',
-    username: 'Elwyn.Skiles',
-    email: 'Telly.Hoeger@billy.biz'
+    name: 'Restaurant 7',
+    Cost: '$$$',
+    user: '7',
+    Description: 'Fun place'
   },
   {
     id: 8,
-    name: 'Nicholas Runolfsdottir V',
-    username: 'Maxime_Nienow',
-    email: 'Sherwood@rosamond.me'
+    name: 'Restaurant 8',
+    Cost: '$$$',
+    user: '8',
+    Description: 'Fun place'
   },
   {
     id: 9,
-    name: 'Glenna Reichert',
-    username: 'Delphine',
-    email: 'Chaim_McDermott@dana.io'
+    name: 'Restaurant 9',
+    Cost: '$$$',
+    user: '9',
+    Description: 'Fun place'
   },
   {
     id: 10,
-    name: 'Clementina DuBuque',
-    username: 'Moriah.Stanton',
-    email: 'Rey.Padberg@karina.biz'
+    name: 'Restaurant 10',
+    Cost: '$$$',
+    user: '10',
+    Description: 'Fun place'
   }
 ];
