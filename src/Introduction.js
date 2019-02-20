@@ -13,8 +13,8 @@ const Introduction = () => {
 							<h4 > Cost Key: </h4>
 								<ul className = 'box1'>
 									<li> 💲 = 0-8 Dollars </li>
-									<li> 💲💲 = 0-8 Dollars </li>
-									<li> 💲💲💲 = 0-8 Dollars </li>
+									<li> 💲💲 = 8-12 Dollars </li>
+									<li> 💲💲💲 = 12-20 Dollars </li>
 								</ul>
 						</div>
 						<div className = 'distance'>

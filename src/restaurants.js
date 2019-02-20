@@ -6,7 +6,7 @@ export const restaurants = [
     Distance: '🚶‍🚶‍🚶‍',
     Rating: '⭐⭐⭐⭐⭐',
     user: '1',
-    Description: 'Fun place'
+    Description: 'Good Ass Food'
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const restaurants = [
     Distance: '🚶‍🚶‍🚶‍',
     Rating: '⭐⭐⭐⭐⭐',
     user: '3',
-    Description: 'Fun place'
+    Description: 'Nice'
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const restaurants = [
     Distance: '🚶‍🚶‍🚶‍',
     Rating: '⭐⭐⭐⭐⭐',
     user: '4',
-    Description: 'Fun place'
+    Description: 'Ok'
   },
   {
     id: 5,
