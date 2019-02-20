@@ -1,4 +1,4 @@
-/*Class for the Intro Message */
+/******* Class for the Intro Message ***********/
 .intro{
 	color: white;
 	text-align: center;
@@ -6,12 +6,35 @@
 	border-style: solid black;
 	margin: 5px;
 }
-
+/************* Creating Grid ***********/
 .container{
 	display: grid;
-	
+	grid-template-columns: 30% 20% 20% 30%;
+	grid-template-rows: 1fr;
 }
 
+.cost{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	text-align: left;
+}
+
+.distance{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	text-align: left;
+}
+
+/****** Updating Cost & Distance Keys ********/
+.box1{
+	text-align: left;
+}
+
+.box2{
+	text-align: left;
+}
+
+/****** Updating Unordered List ********/
 ul{
   list-style-type: none;
   margin: 0;

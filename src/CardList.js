@@ -11,6 +11,7 @@ const CardList = ({ restaurants }) => {
 						id={restaurants[i].id} 
 						name={restaurants[i].name} 
 						Cost={restaurants[i].Cost}
+						Distance={restaurants[i].Distance}
 						Description = {restaurants[i].Description}/>
 				);
 			})

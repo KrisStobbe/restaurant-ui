@@ -9,7 +9,7 @@ const SearchBox = ({ searchfield, searchChange}) => {
 			placeholder = 'Search Local Food'
 			onChange = {searchChange}
 			/>
-
+	{console.log(searchChange)}
 	</div>
 	);
 }
