@@ -21,12 +21,3 @@ h1 {
 	margin-top: -50px;
 	margin-left: -100px;
 }
-
-/*Class for the Intro Message */
-.intro{
-	color: white;
-	text-align: center;
-	padding: 30px;
-	border-style: solid black;
-	margin: 5px;
-}

@@ -2,6 +2,7 @@ import React from 'react';
 import CardList from './CardList';
 import {restaurants} from './restaurants';
 import SearchBox from './SearchBox.js';
+import Introduction from './Introduction.js'
 import './App.css';
 import Scroll from './Scroll.js';
 
@@ -29,8 +30,8 @@ class App extends React.Component {
 		return (
 		<div className = 'tc'>
 			<h1 className = 'f1'> SAS Austin Food List</h1>
+			<Introduction />
 			<SearchBox searchChange={this.onSearchChange}/>
-			<h2 className = 'intro'> Enter Cost Key ($$$) and a Welcome Message </h2>
 			<Scroll>
 				<CardList restaurants={filteredRestaurants}/>
 			</Scroll>

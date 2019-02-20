@@ -1,0 +1,19 @@
+/*Class for the Intro Message */
+.intro{
+	color: white;
+	text-align: center;
+	padding: 30px;
+	border-style: solid black;
+	margin: 5px;
+}
+
+.container{
+	display: grid;
+	
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
