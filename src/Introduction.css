@@ -1,15 +1,17 @@
 /******* Class for the Intro Message ***********/
 .intro{
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 30px;
 	border-style: solid black;
-	margin: 5px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 25px;
 }
 /************* Creating Grid ***********/
 .container{
 	display: grid;
-	grid-template-columns: 30% 20% 20% 30%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 }
 
@@ -22,6 +24,12 @@
 .distance{
 	grid-column-start: 3;
 	grid-column-end: 3;
+	text-align: left;
+}
+
+.rating{
+	grid-column-start: 4;
+	grid-column-end: 4;
 	text-align: left;
 }
 
