@@ -4,7 +4,8 @@ import './Introduction.css';
 /*React Componenents can only return one thing, which is why I wrap the HTML in a DIV */
 const Introduction = () => {
 	return ( 
-	<div className = 'bg-light-green intro'>
+	<div className = ' introWrap bg-light-green intro'>
+		<div className='introColor'>
 		<h2> Welcome to (SAS) Austin Local Food</h2>
 			<div>
 				<h3>How this Works: </h3>
@@ -34,6 +35,7 @@ const Introduction = () => {
 								</ul>
 						</div>	
 					</div>
+			</div>
 			</div>
 	</div>
 	);

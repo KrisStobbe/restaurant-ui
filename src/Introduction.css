@@ -1,12 +1,19 @@
 /******* Class for the Intro Message ***********/
-.intro{
+.introWrap{
 	color: black;
 	text-align: center;
 	padding: 30px;
 	border-style: solid black;
-	margin-left: 400px;
-	margin-right: 400px;
-	margin-bottom: 25px;
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-bottom: 5px;
+	opacity: 0.8;
+	border-radius: 30px;
+}
+
+.introWrap:hover {
+	opacity: 1;
+	animation: reverse;
 }
 /************* Creating Grid ***********/
 .container{
