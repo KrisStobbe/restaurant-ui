@@ -13,17 +13,17 @@ const Introduction = () => {
 						<div className = 'cost'>
 							<h4 > Cost Key: </h4>
 								<ul className = 'box1'>
-									<li> 💲 = 0-8 Dollars </li>
-									<li> 💲💲 = 8-12 Dollars </li>
-									<li> 💲💲💲 = 12-20 Dollars </li>
+									<li> 💲 = 0-5 Dollars </li>
+									<li> 💲💲 = 5-10 Dollars </li>
+									<li> 💲💲💲 = 10-15 Dollars </li>
 								</ul>
 						</div>
 						<div className = 'distance'>
 							<h4> Distance Key: </h4>
 								<ul className = 'box2'>
-									<li> 🚶‍ = 0-1 Block </li>
-									<li> 🚶‍🚶‍ = 2-3 Blocks </li>
-									<li> 🚶‍🚶‍🚶‍ = 4-8 Blocks </li>
+									<li> 🚶‍ = 0-2 Blocks </li>
+									<li> 🚶‍🚶‍ = 2-4 Blocks </li>
+									<li> 🚶‍🚶‍🚶‍ = 4-6 Blocks </li>
 								</ul>
 						</div>	
 						<div className = 'rating'>
@@ -31,7 +31,7 @@ const Introduction = () => {
 								<ul className = 'box2'>
 									<li> ⭐⭐⭐ = Alight </li>
 									<li> ⭐⭐⭐⭐ = Solid </li>
-									<li> ⭐⭐⭐⭐⭐ = FUCK </li>
+									<li> ⭐⭐⭐⭐⭐ = **** </li>
 								</ul>
 						</div>	
 					</div>
